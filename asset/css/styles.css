@@ -25,6 +25,7 @@ a {
     height: 40px;
     border-radius: 8px;
     background: #0F1B4C;
+    color: #FFF;
     border: none;
     cursor: pointer;
 }
@@ -82,8 +83,126 @@ cursor: pointer;
 }
 
 .btn-sign-up {
-    color: #FFF;
 text-align: center;
 font-size: 14px;
 font-weight: 500;
+}
+
+/* Hero */
+
+.hero {
+    background: #E6F0FF;
+}
+.hero-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero__welcome {
+    color: #687690;
+font-size: 1.8rem;
+font-weight: 500;
+letter-spacing: 0.18px;
+}
+
+.hero__heading {
+    margin-top: 8px;
+    color: #000336;
+font-size: 6.4rem;
+font-weight: 700;
+line-height: 76px; /* 118.75% */
+}
+
+.hero__desc {
+    margin-top: 30px;
+    color: #5A6473;
+font-size: 1.8rem;
+font-weight: 400;
+line-height: 32px; /* 177.778% */
+}
+
+.hero__btn {
+    margin-top: 40px;
+    width: 170px;
+height: 50px;
+border-radius: 12px;
+}
+
+
+.hero__house {
+    position: relative;
+    width: 584px;
+    height: 619px;
+    right: -105px;
+}
+.hero__house img {
+    width: 100%;
+}
+
+/* Review */
+
+.review {
+    margin-top: 79px;
+    padding-top: 43px;
+    padding-bottom: 41px;
+}
+
+.review__row-up {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.review__logo {
+    width: 107px;
+    height: 24px;
+    margin-bottom: 23px;
+}
+
+.review__logo img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.review__desc {
+    color: #7D8589;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 20px; /* 125% */
+}
+
+.review__stars {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    column-gap: 0.38rem;
+    margin-bottom: 18.15px;
+}
+
+.review__desc-stars {
+    color: #7D8589;
+font-size: 1.6rem;
+font-weight: 500;
+line-height: 20px; /* 125% */
+}
+
+.review__row-down {
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.review__companys {
+    width: 204px;
+    height: 91px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+}
+
+.review__companys:hover {
+    box-shadow: 3px 2px 18px #C4C4C4;
 }

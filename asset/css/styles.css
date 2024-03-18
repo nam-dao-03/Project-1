@@ -206,3 +206,87 @@ line-height: 20px; /* 125% */
 .review__companys:hover {
     box-shadow: 3px 2px 18px #C4C4C4;
 }
+
+/* working */
+
+.working {
+    margin-top: 40px;
+    padding-top: 79px;
+    padding-bottom: 79px;
+}
+
+.working__heading {
+    color: #000339;
+text-align: center;
+font-size: 3.5rem;
+font-weight: 600;
+line-height: 35px; /* 100% */
+}
+
+.working__heading::before {
+    content: "";
+    display: block;
+    width: 41px;
+height: 4px;
+border-radius: 12px;
+background: #000339;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 10px;
+}
+
+.working__desc {
+    width: 459px;
+    margin: 20px auto 70px auto;
+    color: #5A6473;
+text-align: center;
+font-size: 1.6rem;
+font-weight: 400;
+line-height: 30px; /* 187.5% */
+}
+
+.working__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 113px;
+    padding-right: 113px;
+}
+
+.working__icon {
+    width: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 26px;
+}
+.working__guides {
+    color: #3B3C45;
+font-size: 2rem;
+font-weight: 500;
+line-height: 22px; /* 110% */
+margin-bottom: 20px;
+}
+
+.working__how {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: center;
+}
+
+.working__how  a {
+    color: #0689FF;
+text-align: center;
+font-size: 1.4rem;
+font-weight: 600;
+}
+
+.working__btn {
+    display: block;
+    width: 170px;
+height: 50px;
+border-radius: 12px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 50px;
+}
